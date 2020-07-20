@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="resources/nwb.png" sizes="64x64" type="image/png">
+    <title>NUV - Natwest Under Voice</title>
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css" integrity="sha512-wJgJNTBBkLit7ymC6vvzM1EcSWeM9mmOu+1USHaRBbHkm6W9EgM0HY27+UtUaprntaYQJF75rc8gjxllKs5OIQ==" crossorigin="anonymous" />-->
+    <link rel="stylesheet" href="./main.css">
+    <!--    <style>#google_translate_element, .skiptranslate {-->
+    <!--        display: none;-->
+    <!--    }-->
+
+    <!--    body {-->
+    <!--        top: 0 !important;-->
+    <!--    }</style>-->
+</head>
+<body class="notranslate">
+<div class="overlay" id="idOverlay">
+    <div class="overlay-content">
+        <div>
+                <span class="btn bgprimary" style="font-size: 20px"
+                      onclick="initialise()">
+                    <img src="resources/nwb.png" class="iconImg">
+                    Alexa, play my account story
+                </span>
+        </div>
+        <div><span style="font-size: 12px">#APIThon RBS Open Banking API Hackathon, July 2020. Natwest Group.</span></div>
+        <div><img src="resources/wordcloud_4.png" alt="" class="wordCloudIcon"/></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="sidenav">
+        <div style="margin-bottom: 30px; font-weight: bolder; font-size: 15px;">Customer & Accounts</div>
+        <div id="idCustomerNumbers" style="font-size: 17px">12345678012</div>
+        <div id="accountsList"></div>
+    </div>
+    <div class="right">
+        <div><img src="resources/wordcloud_3.png" alt="" class="wordCloudIcon2"></div>
+        <div>
+            <span class="headingLogo"><img src="resources/nwb.png"></span>
+            <span class="headingTop purple">NuV - Natwest Under Voice</span>
+            <span class="headingTopL1 red bgpurple">RBS Open Banking API Hackathon July 2020</span>
+        </div>
+
+        <div><span style="float: right" class='btn bgprimary' onclick="changeLanguage('HI-EN')">Hindi</span></div>
+        <div class="purple italic">listen your story from your favourite bank ANYTIME....ANYWHERE.... using your registered devices</div>
+        <h1 class="red">Activate your story...</h1>
+        <div class="info"><span>Alexa/Siri:</span> play my <span class="green">RBS/Natwest</span> / <span
+                class="orange">SBI/AXIS/HSBC</span> account story ending with .....</div>
+
+        <div id="idActions" style="float: right">
+            <span class='btn' onclick="getSummary(this)">Summary</span>
+            <span class='btn' onclick="getMoratorium(this)">Moratorium</span>
+            <span class='btn' onclick="getTop5(this)">Top 5</span>
+            <span class='btn' onclick="getOffers(this)">Offers</span>
+        </div>
+        <!--        <div id='google_translate_element'></div>-->
+        <div id='contentHeader' class="contentheader"></div>
+        <div id='contentData' class="contentData">listen what your account says to you</div>
+        <div id='contentLength' class="bgpurple" style="float: left"></div>
+
+        <div style="float: right">
+            <span class='bgprimary btn' onclick="speakOut()">Alexa/Siri Speak</span>
+            <!--            <span class='bgred btn' onclick="stopPlay()">Stop</span>-->
+        </div>
+
+    </div>
+</div>
+
+
+<!--&lt;!&ndash;<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous"></script>&ndash;&gt;-->
+<script src="./custom.js"></script>
+<!--<script type="text/javascript"-->
+<!--        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+
+</body>
+</html>
