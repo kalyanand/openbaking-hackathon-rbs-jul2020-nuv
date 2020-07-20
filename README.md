@@ -6,6 +6,8 @@
 ###### Contributors: Devendra Prasad (prasadf, Enterprise Solution) & Anand Kalyankar (kalyand, Core Banking)
 ###### Mentor: Akriti Katiyar, Natwest Markets
 ###### Thanks: Neeraj Goyal, Manoj Garg, Dheeraj Jaggi, Shivi & entire Hackathon Team
+##### Tested browser : Google Chrome
+
 ![alt text](OB_Proto_SRC/resources/wordcloud_3.png)
 
 ### linux / windows - without sudo 
