@@ -8,7 +8,6 @@
 ###### Thanks: Neeraj Goyal, Manoj Garg, Dheeraj Jaggi, Shivi & entire Hackathon Team
 ![alt text](OB_Proto_SRC/resources/wordcloud_3.png)
 
-
 ###linux / windows - without sudo 
 * sudo npm install nodemon -g
 * sudo npm install http-server -g
