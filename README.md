@@ -1,7 +1,7 @@
 ## RBS Open Banking Hackathon July 2020
 #### Team name: Cyber Renderer
 #### Theme: NuV - Natwest under Voice
-#### Concepts: Open Banking and Assistive Technologies
+#### Concepts: Open Banking and Assistive Technologies (Conversational AI)
 #### github: dpcyberr (https://github.com/dpcyberr/openbaking-hackathon-rbs-jul2020-nuv.git)
 ###### Contributors: Devendra Prasad (prasadf, Enterprise Solution) & Anand Kalyankar (kalyand, Core Banking)
 ###### Mentor: Akriti Katiyar, Natwest Markets
@@ -14,7 +14,7 @@
 
 locate where package.json is in openbanking-node-sdk folder and do npm install to install dependencies needed by the app server
 
-we have used express for rest and points request-promise-native primarily for exposing app as rest endpoint and calling uris
+we have used express for rest and points request-promise-native primarily for exposing app as rest endpoint and calling URIs
 
 ### open banking api sandbox
 we have used following url to get connected to sandbox [https://developer.rbs.useinfinite.io/](https://developer.rbs.useinfinite.io/) On the [dashboard](https://developer.rbs.useinfinite.io/dashboard) 
